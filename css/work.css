@@ -112,7 +112,7 @@ a {
 }
 @media (max-width: 998px) {
   .header {
-    padding-right: 15%;
+    padding-right: 13%;
   }
   .header img {
     width: 150%;
@@ -120,7 +120,7 @@ a {
 }
 @media (max-width: 780px) {
   .header {
-    padding-right: 20%;
+    padding-right: 10%;
   }
   .header img {
     width: 150%;
@@ -128,7 +128,7 @@ a {
 }
 @media (max-width: 600px) {
   .header {
-    padding-right: 15%;
+    padding-right: 10%;
   }
   .header img {
     width: 170%;
@@ -136,7 +136,7 @@ a {
 }
 @media (max-width: 500px) {
   .header {
-    padding-right: 15%;
+    padding-right: 10%;
   }
   .header img {
     width: 230%;
@@ -144,7 +144,7 @@ a {
 }
 @media (max-width: 400px) {
   .header {
-    padding-right: 15%;
+    padding-right: 10%;
   }
   .header img {
     width: 270%;
@@ -179,14 +179,16 @@ a {
   .futuagri {
     margin-top: 50px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    justify-content: center;
     padding-left: ;
     text-align: center;
-    padding-right: 0px;
-    width: 80%;
+    margin-left: -100px;
+    width: 100%;
   }
   .futuagri img {
-    margin-top: -100px;
-    width: 80%;
+    margin-top: -120px;
+    width: 70%;
+    margin-left: 30px;
   }
 }
