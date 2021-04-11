@@ -1,0 +1,268 @@
+body {
+  font-family: "Nunito Sans";
+  color: #444344;
+  background-image: linear-gradient(to bottom right, #b4defe, white);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.header {
+  justify-content: space-between;
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.header button {
+  border: transparent;
+  background: transparent;
+}
+.header img {
+  height: auto;
+}
+h1 {
+  font-size: 2.8vw;
+  font-weight: 900;
+  color: #8eab3d;
+  text-shadow: 5px 5px 7px #b3b3b3;
+}
+h2 {
+  font-weight: 900;
+  text-shadow: 5px 5px 7px #b3b3b3;
+  font-size: 2vw;
+}
+h3 {
+  font-size: 1.5vw;
+  font-weight: 600;
+  color: #444344;
+}
+h4 {
+  font-size: 1.4vw;
+}
+h5 {
+  font-size: 2vw;
+  font-weight: 600;
+}
+h6 {
+  font-size: 1vw;
+}
+p {
+  font-size: 1.3vw;
+  font-weight: 600;
+}
+@media (max-width: 1800px) {
+  h1 {
+    font-size: 4vw;
+  }
+  h2 {
+    font-size: 3.2vw;
+  }
+  h3 {
+    font-size: 2.7vw;
+  }
+  h4 {
+    font-size: 2.6vw;
+  }
+  h5 {
+    font-size: 3.2vw;
+  }
+  h6 {
+    font-size: 2.2vw;
+  }
+  p {
+    font-size: 2.5vw;
+  }
+}
+@media (max-width: 998px) {
+  .header {
+    padding-right: 15%;
+  }
+  .header img {
+    width: 150%;
+  }
+}
+@media (max-width: 780px) {
+  .header {
+    padding-right: 20%;
+  }
+  .header img {
+    width: 150%;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    padding-right: 15%;
+  }
+  .header img {
+    width: 170%;
+  }
+}
+@media (max-width: 500px) {
+  .header {
+    padding-right: 15%;
+  }
+  .header img {
+    width: 230%;
+  }
+}
+@media (max-width: 400px) {
+  .header {
+    padding-right: 15%;
+  }
+  .header img {
+    width: 270%;
+  }
+}
+.tewo-buttons img {
+  width: 10%;
+}
+@media (max-width: 900px) {
+  .tewo-buttons img {
+    width: 15%;
+  }
+}
+@media (max-width: 600px) {
+  .tewo-buttons img {
+    width: 18%;
+  }
+}
+
+@media (max-width: 400px) {
+  .tewo-buttons img {
+    width: 20%;
+  }
+}
+.tewo-images img {
+  width: 25%;
+  height: auto;
+}
+.asfeatured {
+  background: white;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.asfeatured h1 {
+  color: #444344;
+}
+.asfeatured .img {
+  width: 100%;
+  padding-left: 10%;
+}
+.asfeatured .img img {
+  margin: 2%;
+  width: 15%;
+}
+.appfeat {
+  color: #444344;
+  padding-top: 50px;
+  margin-left: 35%;
+  width: 30%;
+}
+.produce {
+  display: flex;
+  padding-top: 20px;
+}
+.produces {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 20px;
+}
+.produces img {
+  width: 30%;
+}
+.toppad img {
+  margin-top: 60px;
+}
+.marketplace {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 70%;
+}
+.produce img {
+  width: 30%;
+}
+@media (max-width: 1800px) {
+  .marketplace {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+  }
+  .produce {
+    display: flex;
+    flex-direction: column;
+  }
+  .produces {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .produces img {
+    width: 30%;
+  }
+  .produce img {
+    width: 30%;
+  }
+  .toppad img {
+    margin-top: 0px;
+  }
+}
+.margin {
+  padding-top: 80px;
+}
+@media (max-width: 600px) {
+  .margin {
+    padding-top: 40px;
+  }
+}
+.instahead {
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 15%;
+  background: white;
+  text-align: left;
+  display: flex;
+}
+.instahead p {
+  width: 75%;
+}
+.instahead img {
+  width: 5%;
+  height: 4%;
+}
+.changefuture {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  padding-left: 15%;
+  padding-top: 50px;
+}
+
+.changefuture h1 {
+  color: #444344;
+}
+.changefuture img {
+  width: 30%;
+  height: 20%;
+}
+.footer {
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15%;
+  padding-right: 20%;
+}
+.footer h5 {
+  color: #444344;
+  text-shadow: 0px 5px 5px #b3b3b3;
+}
+.footer img {
+  width: 20%;
+}
