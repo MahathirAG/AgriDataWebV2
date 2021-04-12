@@ -53,12 +53,15 @@ p {
 a {
   font-size: 25px;
   font-weight: 800;
-
+  text-shadow: 2px 2px 2px #b3b3b3;
   text-decoration: underline;
   text-underline-offset: 5px;
   color: #444344;
   padding-left: 5px;
   padding-right: 5px;
+}
+a:hover {
+  color: #444344;
 }
 @media (max-width: 1800px) {
   h1 {

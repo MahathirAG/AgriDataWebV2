@@ -31,11 +31,12 @@ h2 {
   font-weight: 900;
   text-shadow: 5px 5px 7px #b3b3b3;
   font-size: 2vw;
+  color: black;
 }
 h3 {
   font-size: 1.5vw;
   font-weight: 600;
-  color: #444344;
+  color: #8eab3d;
 }
 h4 {
   font-size: 1.4vw;
@@ -60,6 +61,20 @@ a {
   color: #444344;
   padding-left: 5px;
   padding-right: 5px;
+  text-shadow: 2px 2px 2px #b3b3b3;
+}
+a:hover {
+  color: #444344;
+}
+@media (max-width: 1800px) {
+  .header .btn {
+    width: 15%;
+  }
+}
+@media (max-width: 1800px) {
+  .header .tewohead {
+    transform: translateY(25%);
+  }
 }
 @media (max-width: 1800px) {
   h1 {
@@ -156,7 +171,7 @@ a {
 }
 
 .carousel-cell {
-  width: 26%;
+  width: 20%;
   height: 30%;
   margin-right: 10px;
   background: transparent;
@@ -174,9 +189,50 @@ a {
   color: transparent;
 }
 .carousel-cell img {
-  width: 70%;
+  width: 100%;
 }
 .carousel-cell button {
   border: transparent;
   background: transparent;
+}
+.carousel-cell button:hover {
+  background: transparent;
+}
+.carousel-cell:hover {
+  background: transparent;
+}
+.btn:hover {
+  background: transparent;
+}
+.modal-content {
+  background: #b4defe;
+  width: 150%;
+  left: -25%;
+}
+
+@media (max-width: 800px) {
+  .modal-content {
+    width: 100%;
+
+    left: 4%;
+  }
+  .modal-content img {
+    width: 70%;
+  }
+}
+@media (max-width: 600px) {
+  .carousel-cell {
+    width: 40%;
+  }
+  .carousel-cell img {
+    width: 100%;
+  }
+  .modal-content {
+    width: 80%;
+
+    left: 10%;
+  }
+  .modal-content img {
+    width: 50%;
+  }
 }
