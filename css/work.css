@@ -64,6 +64,16 @@ a:hover {
   color: #444344;
 }
 @media (max-width: 1800px) {
+  .header .btn {
+    width: 15%;
+  }
+}
+@media (max-width: 1800px) {
+  .header .tewohead {
+    transform: translateY(25%);
+  }
+}
+@media (max-width: 1800px) {
   h1 {
     font-size: 4vw;
   }
@@ -204,6 +214,7 @@ a:hover {
   margin-left: 5px;
   margin-right: 5px;
   padding: 5px 50px 5px 50px;
+  box-shadow: 2px 2px 3px #b9b9b9;
 }
 .problems {
   margin-top: 50px;
@@ -350,4 +361,36 @@ a:hover {
 }
 .footer img {
   width: 20%;
+}
+.modal-content {
+  background: #b4defe;
+  width: 150%;
+  left: -32.5%;
+}
+
+@media (max-width: 800px) {
+  .modal-content {
+    width: 100%;
+
+    left: 4%;
+  }
+  .modal-content img {
+    width: 70%;
+  }
+}
+@media (max-width: 600px) {
+  .carousel-cell {
+    width: 40%;
+  }
+  .carousel-cell img {
+    width: 100%;
+  }
+  .modal-content {
+    width: 80%;
+
+    left: 10%;
+  }
+  .modal-content img {
+    width: 50%;
+  }
 }
