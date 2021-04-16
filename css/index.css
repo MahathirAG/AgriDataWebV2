@@ -242,12 +242,14 @@ a:hover {
     padding-top: 40px;
   }
 }
+.insta {
+  background: white;
+}
 .instahead {
   margin-top: 50px;
   padding-top: 50px;
   padding-bottom: 20px;
   padding-left: 15%;
-  background: white;
   text-align: left;
   display: flex;
 }
@@ -257,6 +259,11 @@ a:hover {
 .instahead img {
   width: 5%;
   height: 4%;
+}
+.ig {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
 }
 .changefuture {
   display: flex;
