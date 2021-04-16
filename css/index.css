@@ -100,7 +100,7 @@ a:hover {
 }
 @media (max-width: 998px) {
   .header {
-    padding-right: 15%;
+    padding-right: 13%;
   }
   .header img {
     width: 150%;
@@ -108,7 +108,7 @@ a:hover {
 }
 @media (max-width: 780px) {
   .header {
-    padding-right: 20%;
+    padding-right: 10%;
   }
   .header img {
     width: 150%;
@@ -116,7 +116,7 @@ a:hover {
 }
 @media (max-width: 600px) {
   .header {
-    padding-right: 15%;
+    padding-right: 10%;
   }
   .header img {
     width: 170%;
@@ -124,7 +124,7 @@ a:hover {
 }
 @media (max-width: 500px) {
   .header {
-    padding-right: 15%;
+    padding-right: 10%;
   }
   .header img {
     width: 230%;
@@ -132,7 +132,7 @@ a:hover {
 }
 @media (max-width: 400px) {
   .header {
-    padding-right: 15%;
+    padding-right: 10%;
   }
   .header img {
     width: 270%;
@@ -158,7 +158,7 @@ a:hover {
   }
 }
 .tewo-images img {
-  width: 25%;
+  width: 40%;
   height: auto;
 }
 .asfeatured {
@@ -291,9 +291,40 @@ a:hover {
   width: 20%;
 }
 .modal-content {
-  background: #b4defe;
+  border: transparent;
+  background: transparent;
   width: 150%;
   left: -25%;
+}
+.imgr {
+  background-image: linear-gradient(to top left, white, #b4defe);
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  z-index: 1;
+  width: 103.5%;
+  transform: translateX(-1.75%);
+}
+.modal-body p {
+  font-size: 20px;
+  font-weight: 700;
+}
+.modal-body h3 {
+  color: #444344;
+  font-size: 25px;
+  font-weight: 900;
+}
+@media (max-width: 1000px) {
+  .modal-body p {
+    font-size: 2vw;
+    font-weight: 700;
+  }
+  .modal-body h3 {
+    color: #444344;
+    font-size: 2.2vw;
+    font-weight: 900;
+  }
 }
 @media (max-width: 800px) {
   .modal-content {

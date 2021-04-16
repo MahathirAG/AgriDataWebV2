@@ -228,7 +228,7 @@ a:hover {
   width: 75%;
   margin-left: 13%;
 }
-.probbg {
+/**.probbg {
   background: white;
   border-radius: 10px;
   display: flex;
@@ -265,7 +265,7 @@ a:hover {
 
 .textoverlay {
   text-align: center;
-}
+}**/
 @media (max-width: 991px) {
   .probbg {
     height: auto;
@@ -274,7 +274,7 @@ a:hover {
     display: flex;
     flex-direction: column;
   }
-  .overlay {
+  /**.overlay {
     height: 70%;
     margin: 0;
     padding-top: 0px;
@@ -284,15 +284,15 @@ a:hover {
   }
   .hoverthis img {
     width: 70%;
-  }
+  }**/
 }
 @media (max-width: 575px) {
-  .hoverthis img {
+  /**.hoverthis img {
     width: 50%;
   }
   .probbg {
     margin: 10%;
-  }
+  }**/
 }
 /**@media (max-width: 1100px) {
   .firstover {
@@ -363,11 +363,42 @@ a:hover {
   width: 20%;
 }
 .modal-content {
-  background: #b4defe;
+  border: transparent;
+  background: transparent;
   width: 150%;
-  left: -32.5%;
+  left: -25%;
 }
-
+.imgr {
+  background-image: linear-gradient(to top left, white, #b4defe);
+  margin: 0;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  z-index: 1;
+  width: 103.5%;
+  transform: translateX(-1.75%);
+}
+.modal-body p {
+  font-size: 20px;
+  font-weight: 700;
+}
+.modal-body h3 {
+  color: #444344;
+  font-size: 25px;
+  font-weight: 900;
+}
+@media (max-width: 1000px) {
+  .modal-body p {
+    font-size: 2vw;
+    font-weight: 700;
+  }
+  .modal-body h3 {
+    color: #444344;
+    font-size: 2.2vw;
+    font-weight: 900;
+  }
+}
 @media (max-width: 800px) {
   .modal-content {
     width: 100%;
@@ -393,4 +424,66 @@ a:hover {
   .modal-content img {
     width: 50%;
   }
+}
+.problem {
+  background-image: linear-gradient(to right, white, #cbeaff);
+  margin-top: 200px;
+  min-height: 700px;
+}
+.prob-space {
+  display: flex;
+  justify-content: center;
+}
+.hover-board {
+  background-color: white;
+  width: %;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+.sexy-back:hover .overlay {
+  opacity: 1;
+}
+.sexy-back .front-cover {
+  position: relative;
+}
+
+.sexy-back .front-cover img {
+  width: 100%;
+}
+.front-cover img {
+  display: block;
+  width: auto;
+  height: 100%;
+}
+.front-cover h2 {
+  margin-left: 2px;
+  margin-right: 2px;
+  flex-direction: row;
+  display: flex;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  
+  z-index: 1;
+}
+.text-overlay {
+  
+  position: absolute;
+  padding: 
+  text-align: left;
+  font-weight: 600;
+  text-align: center;
+  background-color: #e9f7ff;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #696969;
+  overflow: visible;
+  height: auto;
 }
