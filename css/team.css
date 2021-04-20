@@ -6,6 +6,7 @@ body {
   text-align: center;
   flex-direction: column;
 }
+
 .header {
   justify-content: space-between;
   display: flex;
@@ -14,48 +15,57 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .header button {
   border: transparent;
   background: transparent;
 }
+
 .header img {
   height: auto;
 }
+
 h1 {
   font-size: 2.8vw;
   font-weight: 900;
   color: #444344;
   text-shadow: 5px 5px 7px #b3b3b3;
 }
+
 h2 {
   font-weight: 900;
   text-shadow: 5px 5px 7px #b3b3b3;
   font-size: 2vw;
   color: black;
 }
+
 h3 {
   font-size: 1.5vw;
   font-weight: 600;
   color: #8eab3d;
 }
+
 h4 {
   font-size: 1.4vw;
 }
+
 h5 {
   font-size: 2vw;
   font-weight: 600;
 }
+
 h6 {
   font-size: 1vw;
 }
+
 p {
   font-size: 1.3vw;
   font-weight: 600;
 }
+
 a {
   font-size: 25px;
   font-weight: 800;
-
   text-decoration: underline;
   text-underline-offset: 5px;
   color: #444344;
@@ -63,19 +73,23 @@ a {
   padding-right: 5px;
   text-shadow: 2px 2px 2px #b3b3b3;
 }
+
 a:hover {
   color: #444344;
 }
+
 @media (max-width: 1800px) {
   .header .btn {
     width: 15%;
   }
 }
+
 @media (max-width: 1800px) {
   .header .tewohead {
     transform: translateY(25%);
   }
 }
+
 @media (max-width: 1800px) {
   h1 {
     font-size: 4vw;
@@ -99,9 +113,11 @@ a:hover {
     font-size: 2.5vw;
   }
 }
+
 .tewohead {
   padding-top: 20px;
 }
+
 @media (max-width: 830px) {
   a {
     font-size: 2.5vw;
@@ -110,6 +126,7 @@ a:hover {
     padding-top: 15px;
   }
 }
+
 @media (max-width: 650px) {
   a {
     font-size: 2.5vw;
@@ -118,6 +135,7 @@ a:hover {
     padding-top: 5px;
   }
 }
+
 @media (max-width: 400px) {
   a {
     font-size: 2.5vw;
@@ -126,6 +144,7 @@ a:hover {
     padding-top: 0px;
   }
 }
+
 @media (max-width: 998px) {
   .header {
     padding-right: 13%;
@@ -134,6 +153,7 @@ a:hover {
     width: 150%;
   }
 }
+
 @media (max-width: 780px) {
   .header {
     padding-right: 10%;
@@ -142,6 +162,7 @@ a:hover {
     width: 150%;
   }
 }
+
 @media (max-width: 600px) {
   .header {
     padding-right: 10%;
@@ -150,6 +171,7 @@ a:hover {
     width: 170%;
   }
 }
+
 @media (max-width: 500px) {
   .header {
     padding-right: 10%;
@@ -158,14 +180,17 @@ a:hover {
     width: 230%;
   }
 }
+
 @media (max-width: 400px) {
   .header {
     padding-right: 10%;
   }
   .header img {
-    width: 270%;
+    width: 350%;
+    transform: translateX(-38%);
   }
 }
+
 .carousel {
   background: transparent;
 }
@@ -180,6 +205,7 @@ a:hover {
 }
 
 /* cell number */
+
 .carousel-cell:before {
   display: block;
   text-align: center;
@@ -188,28 +214,39 @@ a:hover {
   font-size: 80px;
   color: transparent;
 }
+
 .carousel-cell img {
   width: 100%;
 }
+
 .carousel-cell button {
   border: transparent;
   background: transparent;
 }
+
+.carousel-cell .btn-lg button {
+  border: transparent;
+}
+
 .carousel-cell button:hover {
   background: transparent;
 }
+
 .carousel-cell:hover {
   background: transparent;
 }
+
 .btn:hover {
   background: transparent;
 }
+
 .modal-content {
   background: transparent;
   border: transparent;
   width: 150%;
   left: -25%;
 }
+
 .imgr {
   background-image: linear-gradient(to top left, white, #b4defe);
   margin: 0;
@@ -220,18 +257,24 @@ a:hover {
   width: 103.5%;
   transform: translateX(-1.75%);
 }
+
 .modal-header {
   border: transparent;
 }
+
 .modal-body p {
   font-size: 20px;
   font-weight: 700;
 }
+
 .modal-body h3 {
   color: #444344;
   font-size: 25px;
   font-weight: 900;
 }
+
+.modal-content {}
+
 @media (max-width: 1000px) {
   .modal-body p {
     font-size: 2vw;
@@ -243,16 +286,17 @@ a:hover {
     font-weight: 900;
   }
 }
+
 @media (max-width: 800px) {
   .modal-content {
     width: 100%;
-
     left: 4%;
   }
   .modal-content img {
     width: 70%;
   }
 }
+
 @media (max-width: 600px) {
   .carousel-cell {
     width: 40%;
@@ -262,7 +306,6 @@ a:hover {
   }
   .modal-content {
     width: 80%;
-
     left: 10%;
   }
   .modal-content img {

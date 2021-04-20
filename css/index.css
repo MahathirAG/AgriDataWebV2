@@ -77,6 +77,11 @@ a:hover {
   color: #444344;
 }
 
+.header .btn-info {
+  border: transparent;
+  background-color: transparent;
+}
+
 @media (max-width: 1800px) {
   .header .btn {
     width: 15%;
@@ -154,7 +159,8 @@ a:hover {
     padding-right: 10%;
   }
   .header img {
-    width: 270%;
+    width: 350%;
+    transform: translateX(-38%);
   }
 }
 
