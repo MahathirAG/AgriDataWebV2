@@ -367,6 +367,51 @@ a:hover {
   transform: translateX(-1.75%);
 }
 
+.modal-body {
+  transform: translateY(-10%);
+}
+
+#modalbutton {
+  border-radius: 100px;
+  transform: translateY(55%) translateX(200%);
+  z-index: 1;
+}
+
+#modalteam {
+  border-radius: 100px;
+  transform: translateY(-35%) translateX(0%);
+  z-index: 1;
+}
+
+@media (max-width: 800px) {
+  #modalbutton {
+    border-radius: 100px;
+    transform: translateY(55%) translateX(150%);
+    z-index: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  #modalbutton {
+    border-radius: 100px;
+    transform: translateY(55%) translateX(100%);
+    z-index: 1;
+  }
+  #modalteam {
+    border-radius: 100px;
+    transform: translateY(0%) translateX(0%);
+    z-index: 1;
+  }
+}
+
+@media (max-width:450px) {
+  #modalteam {
+    border-radius: 100px;
+    transform: translateY(30%) translateX(0%);
+    z-index: 1;
+  }
+}
+
 .modal-body p {
   font-size: 20px;
   font-weight: 700;

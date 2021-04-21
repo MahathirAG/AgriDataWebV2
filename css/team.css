@@ -258,8 +258,24 @@ a:hover {
   transform: translateX(-1.75%);
 }
 
+#modalbutton {
+  border-radius: 100px;
+  transform: translateY(55%) translateX(200%);
+  z-index: 1;
+}
+
+#modalteam {
+  border-radius: 100px;
+  transform: translateY(-35%) translateX(0%);
+  z-index: 1;
+}
+
 .modal-header {
   border: transparent;
+}
+
+.modal-body {
+  transform: translateY(-11.5%);
 }
 
 .modal-body p {
@@ -272,8 +288,6 @@ a:hover {
   font-size: 25px;
   font-weight: 900;
 }
-
-.modal-content {}
 
 @media (max-width: 1000px) {
   .modal-body p {
@@ -295,6 +309,11 @@ a:hover {
   .modal-content img {
     width: 70%;
   }
+  #modalbutton {
+    border-radius: 100px;
+    transform: translateY(55%) translateX(150%);
+    z-index: 1;
+  }
 }
 
 @media (max-width: 600px) {
@@ -310,5 +329,23 @@ a:hover {
   }
   .modal-content img {
     width: 50%;
+  }
+  #modalbutton {
+    border-radius: 100px;
+    transform: translateY(55%) translateX(100%);
+    z-index: 1;
+  }
+  #modalteam {
+    border-radius: 100px;
+    transform: translateY(0%) translateX(0%);
+    z-index: 1;
+  }
+}
+
+@media (max-width:450px) {
+  #modalteam {
+    border-radius: 100px;
+    transform: translateY(30%) translateX(0%);
+    z-index: 1;
   }
 }

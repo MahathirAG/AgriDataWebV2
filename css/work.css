@@ -442,6 +442,51 @@ a:hover {
   transform: translateX(-1.75%);
 }
 
+.modal-body {
+  transform: translateY(-10%);
+}
+
+#modalbutton {
+  border-radius: 100px;
+  transform: translateY(55%) translateX(200%);
+  z-index: 1;
+}
+
+#modalteam {
+  border-radius: 100px;
+  transform: translateY(-35%) translateX(0%);
+  z-index: 1;
+}
+
+@media (max-width: 800px) {
+  #modalbutton {
+    border-radius: 100px;
+    transform: translateY(55%) translateX(150%);
+    z-index: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  #modalbutton {
+    border-radius: 100px;
+    transform: translateY(55%) translateX(100%);
+    z-index: 1;
+  }
+  #modalteam {
+    border-radius: 100px;
+    transform: translateY(0%) translateX(0%);
+    z-index: 1;
+  }
+}
+
+@media (max-width:450px) {
+  #modalteam {
+    border-radius: 100px;
+    transform: translateY(30%) translateX(0%);
+    z-index: 1;
+  }
+}
+
 .modal-body p {
   font-size: 20px;
   font-weight: 700;
@@ -495,6 +540,7 @@ a:hover {
   background-image: linear-gradient(to right, white, #cbeaff);
   margin-top: 200px;
   min-height: 700px;
+  padding-bottom: 100px;
 }
 
 .prob-space {
@@ -518,14 +564,36 @@ a:hover {
   position: relative;
 }
 
-.sexy-back .front-cover img {
-  width: 100%;
-}
-
 .front-cover img {
   display: block;
   width: auto;
-  height: 100%;
+  height: 80%;
+}
+
+@media (max-width:1200px) {
+  .front-cover img {
+    display: block;
+    width: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width:991px) {
+  .front-cover img {
+    display: block;
+    width: auto;
+    width: 80%;
+    transform: translateX(15%);
+  }
+}
+
+@media (max-width:991px) {
+  .front-cover img {
+    display: block;
+    width: auto;
+    width: 60%;
+    transform: translateX(35%);
+  }
 }
 
 .front-cover h2 {
