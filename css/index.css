@@ -25,6 +25,10 @@ body {
   height: auto;
 }
 
+.btn.focus .btn:focus {
+  box-shadow: transparent;
+}
+
 h1 {
   font-size: 2.8vw;
   font-weight: 900;
@@ -430,13 +434,9 @@ a:hover {
 .ig {
   flex-direction: row;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   height: 50%;
-}
-
-.ig .blockquote {
-  width: 10%;
-  height: 5%;
+  margin-bottom: 50px;
 }
 
 .ig p {
@@ -449,6 +449,12 @@ a:hover {
 
 .ig img {
   width: 80%;
+}
+
+@media (max-width:575px) {
+  .ig img {
+    width: 40%;
+  }
 }
 
 @media (max-width:800px) {
